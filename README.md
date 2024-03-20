@@ -1,4 +1,4 @@
-#This is the React version of the given website in the Assignment
+# This is the React version of the given website in the Assignment
 
 ## Installation
 
