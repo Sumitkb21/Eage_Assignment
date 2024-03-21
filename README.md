@@ -6,7 +6,7 @@ To run this project in your local PC
 ```bash
 npm install
 ```
-### running the program
+### run the program
 ```bash
 npm start
 ```
