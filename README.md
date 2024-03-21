@@ -3,7 +3,8 @@
 ## Installation
 
 To run this project in your local PC
-```bash  
+```bash
+  clone the repo  
   npm i
   npm start
 ```
