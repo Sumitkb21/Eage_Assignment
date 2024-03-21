@@ -2,11 +2,11 @@
 
 To run this project in your local PC
 ## Installation 
-### install the dependencies
+### Install the dependencies
 ```bash
 npm install
 ```
-### run the program
+### Run the program
 ```bash
 npm start
 ```
