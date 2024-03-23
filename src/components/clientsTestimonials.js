@@ -12,15 +12,12 @@ import test5 from "../images/test5.png";
 import test6 from "../images/test6.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
-import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { Pagination } from "swiper/modules";
 
-
-
-// import required modules
-import { Navigation } from "swiper/modules";
+// // import required modules
+// import { Navigation } from "swiper/modules";
 
 const ClientsTestimonials = () => {
   return (
@@ -30,8 +27,12 @@ const ClientsTestimonials = () => {
         <div className="row clienthead">
           <div className="col-md-12">
             <Swiper
-              navigation={true}
-              modules={[Navigation]}
+              slidesPerView={3}
+              spaceBetween={30}
+              pagination={{
+                clickable: true,
+              }}
+              modules={[Pagination]}
               className="mySwiper"
             >
               <SwiperSlide>
